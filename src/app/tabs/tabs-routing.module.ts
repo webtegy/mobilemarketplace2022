@@ -20,6 +20,22 @@ const routes: Routes = [
         loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
       },
       {
+        path: 'home',
+        loadChildren: () => import('../pages/home/home.module').then( m => m.HomePageModule)
+      },
+      {
+        path: 'my-listings',
+        loadChildren: () => import('../pages/my-listings/my-listings.module').then( m => m.MyListingsPageModule)
+      },
+      {
+        path: 'my-listings-add',
+        loadChildren: () => import('../pages/my-listings-add/my-listings-add.module').then( m => m.MyListingsAddPageModule)
+      },
+      {
+        path: 'profile',
+        loadChildren: () => import('../pages/profile/profile.module').then( m => m.ProfilePageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
