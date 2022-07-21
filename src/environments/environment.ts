@@ -10,8 +10,8 @@ export const environment = {
     projectId: "",
     storageBucket: ".appspot.com",
     messagingSenderId: "",
-    appId: "1:611169298902::d9604b0731429985e1c77",
-    measurementId: "G-"
+    appId: "",
+    measurementId: ""
   }
   
 };

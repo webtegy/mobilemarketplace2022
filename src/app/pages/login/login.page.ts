@@ -43,4 +43,10 @@ export class LoginPage implements OnInit {
 
   }
 
+
+  register(){
+    //route to the registration page.
+    this.router.navigate(['register']); 
+  }
+
 }
